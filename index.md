@@ -24,8 +24,8 @@ We're creating a place where residents can more easily find out what's happening
 <div class="home-boxes">
   <section class="home-box">
     <h3>Find What's Happening</h3>
-    <p>Looking for something to do in Needham? Visit our Events page to see local gatherings, activities, and community happenings all in one place.</p>
-    <a class="button" href="{{ '/events' | relative_url }}">View Events</a>
+    <p>Looking for something to do in Needham? Visit our Community Events page to see local gatherings, activities, and community happenings all in one place.</p>
+    <a class="button" href="{{ '/events' | relative_url }}">View Community Events</a>
   </section>
 
   <section class="home-box">

@@ -13,21 +13,21 @@ wide: true
     <table class="resource-table">
       <thead>
         <tr>
-          <th scope="col">{{ section.name_heading }}</th>
+          <th scope="col">Organization</th>
           <th scope="col">Description</th>
-          <th scope="col">{{ section.contact_heading }}</th>
+          <th scope="col">Website</th>
         </tr>
       </thead>
       <tbody>
         {% for entry in section.entries %}
           <tr>
             <th scope="row">{{ entry.name }}</th>
-            <td data-label="Description">{{ entry.description }}</td>
-            <td data-label="{{ section.contact_heading }}">
+            <td data-label="Description">{{ entry.desc }}</td>
+            <td data-label="Website">
               {% if entry.href %}
-                <a href="{{ entry.href }}" title="{{ entry.contact }}"{% if entry.external %} target="_blank" rel="noopener noreferrer"{% endif %}><span class="contact-label">{{ entry.label }}</span><span class="contact-value">{{ entry.contact }}</span></a>
+                <a href="{{ entry.href }}" title="{{ entry.cont }}" target="_blank" rel="noopener noreferrer"><span class="contact-label">Website</span><span class="contact-value">{{ entry.cont }}</span></a>
               {% else %}
-                {{ entry.contact }}
+                {{ entry.cont }}
               {% endif %}
             </td>
           </tr>

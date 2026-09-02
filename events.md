@@ -1,10 +1,10 @@
 ---
-title: "Needham Circle — Events"
+title: "Needham Circle — Community Events"
 description: "Upcoming community events in Needham Circle. Browse what's happening, and submit your own events."
 permalink: /events
 ---
 
-<h2 class="visually-hidden">Upcoming Events</h2>
+<h2 class="visually-hidden">Community Events</h2>
 
 <div class="event-filters" data-filters>
   <div class="filter-bar">

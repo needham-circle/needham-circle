@@ -1,11 +1,11 @@
 ---
-title: "Needham Circle — Resources"
+title: "Needham Circle — Community Resources"
 description: "Community resources for Needham: town offices, affinity groups, nonprofits, and parks."
 permalink: /resources
 wide: true
 ---
 
-<h2>Resources</h2>
+<h2>Community Resources</h2>
 
 {% for section in site.data.resources %}
   <section class="resource-section">

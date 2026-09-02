@@ -3,6 +3,12 @@
 # in the needhamcircle/functions repo from the browser.
 title: Needham Circle
 
+# The site is served at the root of its custom domain, so absolute_url and
+# relative_url resolve against these rather than a base path derived from the
+# GitHub Pages API. `jekyll serve` overrides url with the local address.
+url: "https://needhamcircle.org"
+baseurl: ""
+
 # The deployed function URLs the site's JS calls. Fill these in after
 # deploying each function (see the needhamcircle/functions repo);
 # _config_local.yml overrides them to point at its devserver for local

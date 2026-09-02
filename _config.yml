@@ -7,9 +7,9 @@ title: Needham Circle
 # deploying each function (see the needhamcircle/functions repo);
 # _config_local.yml overrides them to point at its devserver for local
 # development.
-events_endpoint: ""
-submit_endpoint: ""
-contact_endpoint: ""
+events_endpoint: "https://us-east1-needham-circle.cloudfunctions.net/needham-circle-events"
+submit_endpoint: "https://us-east1-needham-circle.cloudfunctions.net/needham-circle-submit"
+contact_endpoint: "https://us-east1-needham-circle.cloudfunctions.net/needham-circle-contact"
 
 defaults:
   - scope:
